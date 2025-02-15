@@ -1,6 +1,6 @@
 const Education = () => {
     return (
-      <div className="bg-gray-900 border border-gray-800 rounded-2xl p-6 w-11/12 shadow-xl hover:shadow-2xl transition-all duration-300 mt-10">
+      <div className="bg-gray-900 border border-gray-800 rounded-2xl p-6  shadow-xl hover:shadow-2xl transition-all duration-300 mt-10">
         {/* Header */}
         <div className="flex items-center gap-3 mb-6">
           <div className="bg-blue-500 w-1.5 h-8 rounded-full animate-pulse"></div>
