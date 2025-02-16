@@ -89,7 +89,7 @@ const App = () => {
       // Adjust image to fit within a single page without pagination
       pdf.addImage(imgData, "JPEG", 0, 0, imgWidth, imgHeight, "", "FAST");
 
-      const filename = `biodata_${new Date().toISOString().slice(0, 10)}.pdf`;
+      const filename = `biodata_tirath.pdf`;
       pdf.save(filename);
     } catch (error) {
       console.error("PDF generation failed:", error);
