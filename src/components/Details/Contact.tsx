@@ -3,11 +3,11 @@ import {  Phone, MapPin } from "lucide-react";
 
 const Contact = () => {
   return (
-    <div className=" bg-gray-900 bg-opacity-80 backdrop-blur-md border border-gray-700 rounded-3xl p-8  shadow-2xl transition-all duration-300">
+    <div className=" bg-white backdrop-blur-md border border-gray-700 rounded-3xl p-8  shadow-2xl transition-all duration-300">
       {/* Header */}
       <div className="flex items-center gap-4 mb-6">
         <div className="bg-gradient-to-r from-blue-500 to-purple-500 w-2 h-10 rounded-full"></div>
-        <h2 className="font-extrabold text-3xl text-white tracking-wide">
+        <h2 className="font-extrabold text-3xl text-black tracking-wide">
           Contact Details
         </h2>
       </div>
@@ -55,19 +55,19 @@ const DetailRow = ({
 
   return (
     <div
-      className={`flex  items-center mb-6 flex-wrap group bg-gray-800/50 p-5 gap-2 rounded-xl shadow-lg hover:bg-gray-700 transition-all duration-300 ${
+      className={`flex  items-center mb-6 flex-wrap group bg-gray-200/30 p-5 gap-2 rounded-xl shadow-lg hover:bg-gray-200 transition-all duration-300 ${
         isLong ? "w-full col-span-2" : "w-full"
       }`}
     >
       {/* Left Side - Icon & Label */}
       <div className="flex items-center justify-start gap-3 text-blue-400 text-lg font-semibold">
         {icon}
-        <div className="font-medium text-gray-400">{label}</div>
+        <div className="font-medium text-gray-800">{label}</div>
       </div>
 
       {/* Right Side - Value & Copy Button */}
 
-      <div>: {value}</div>
+      <div className="text-black">: {value}</div>
     </div>
   );
 };

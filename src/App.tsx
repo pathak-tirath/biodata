@@ -33,6 +33,11 @@ const App = () => {
         display: inline-block !important;
       }
 
+      #pdf-header {
+  flex-direction: row !important;
+}
+
+
         .animate-pulse{
            vertical-align: middle !important;
         display: inline-block !important;
@@ -100,8 +105,8 @@ const App = () => {
   };
 
   return (
-    <div className="mt-10 border w-10/12 mx-auto bg-[#202020] text-white rounded-2xl sm:p-4">
-      <div id="pdf-content" className="min-h-screen max-w-4xl mx-auto p-6">
+    <div className="border w-full mx-auto bg-[#202020] text-white rounded-2xl sm:p-4">
+      <div id="pdf-content" className="min-h-screen max-w-4xl mx-auto">
         <Header />
         <Index />
       </div>

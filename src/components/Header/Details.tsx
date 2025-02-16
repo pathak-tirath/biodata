@@ -2,7 +2,7 @@ const Details = () => {
   return (
     <div className="flex flex-col">
       {/* Name with refined typography */}
-      <div className="text-3xl sm:text-5xl font-extrabold tracking-wide text-white mb-2">
+      <div className="text-3xl sm:text-4xl  font-extrabold tracking-wide text-black mb-2">
         TIRATH PATHAK
       </div>
 
@@ -10,9 +10,9 @@ const Details = () => {
       <div className="w-full h-1 bg-gradient-to-r from-blue-500 via-red-500 to-green-500 mt-2 rounded-full animate-pulse"></div>
 
       {/* Job Title & Company */}
-      <div className="text-xl text-gray-300 mt-3">
+      <div className="text-xl text-gray-800 mt-2">
         Software Engineer -{" "}
-        <span className="text-blue-400 hover:underline cursor-pointer">
+        <span className="text-blue-700 hover:underline cursor-pointer">
           ManekTech
         </span>
       </div>

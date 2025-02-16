@@ -1,10 +1,10 @@
 const Family = () => {
   return (
-    <div className="bg-gray-900 border border-gray-800 rounded-2xl px-6  shadow-xl hover:shadow-2xl transition-all duration-300">
+    <div className="bg-white border border-gray-800 rounded-2xl px-6  shadow-xl hover:shadow-2xl transition-all duration-300">
       {/* Header */}
       <div className="flex items-center gap-3 mb-6 pt-6 pb-1">
         <div className="bg-blue-500 w-1.5 h-8 rounded-full animate-pulse"></div>
-        <h2 className="font-bold text-2xl text-white">Family Details</h2>
+        <h2 className="font-bold text-2xl text-black">Family Details</h2>
       </div>
 
       {/* Details Container */}
@@ -40,13 +40,13 @@ const Family = () => {
 };
 
 const DetailRow = ({ label, value }: { label: string; value: string }) => (
-  <div className="flex items-start group hover:bg-gray-800/30 px-2 pb-[30px]  rounded-lg transition-all duration-200">
+  <div className="flex items-start group hover:bg-gray-200/30 px-2 pb-[32px]  rounded-lg transition-all duration-200">
     <div className="w-1/3">
-      <span className="font-medium text-gray-400 group-hover:text-gray-300 transition-colors duration-200">
+      <span className="font-medium text-gray-800 group-hover:text-gray-800 transition-colors duration-200">
         {label}
       </span>
     </div>
-    <div className="w-2/3 pl-8 sm:pl-4 break-words text-white group-hover:text-blue-400 transition-colors duration-200">
+    <div className="w-2/3 pl-8 sm:pl-4 break-words text-black group-hover:text-gray-900 transition-colors duration-200">
       : {value}
     </div>
   </div>
