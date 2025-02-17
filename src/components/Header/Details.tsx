@@ -11,10 +11,8 @@ const Details = () => {
 
       {/* Job Title & Company */}
       <div className="text-xl text-gray-800 mt-2">
-        Software Engineer -{" "}
-        <span className="text-blue-700 hover:underline cursor-pointer">
-          ManekTech
-        </span>
+        Software Engineer
+        
       </div>
     </div>
   );
