@@ -1,13 +1,13 @@
-import Photo from "@/assets/images/tirath.png";
-
+import Photo from "@/assets/images/tirath_main_skyblue.png";
 const Image = () => {
   return (
-    <div className="p-2 sm:w-10/12 sm:mb-0 w-8/12 mb-4 justify-center flex">
-      <img
-        src={Photo}
-        alt="Tirath Pathak"
-        className="w-5/6   border-gray-700 rounded-3xl shadow-2xl object-cover"
-      />
+    <div className="p-2  mb-4 justify-center flex">
+        <div className=" rounded-3xl"></div>
+        <img
+          src={Photo}
+          alt="Tirath Pathak"
+          className="relative w-52 h-60 rounded-3xl shadow-2xl object-cover mix-blend-multiply"
+        />
     </div>
   );
 };
