@@ -1,6 +1,5 @@
 import PhotoFour from "../Photos/Four"
 import PhotoOne from "../Photos/One"
-import PhotoThree from "../Photos/Three"
 import PhotoTwo from "../Photos/Two"
 
 
@@ -26,9 +25,7 @@ const Photos = () => {
           <PhotoTwo />
         </div>
 
-        {/* <div className="w-full flex justify-center">
-          <PhotoThree />
-        </div> */}
+
         <div className="w-full flex justify-center">
           <PhotoFour />
         </div>
