@@ -1,5 +1,5 @@
-import Photo from "@/assets/images/tirath_mumbai_1.jpg";
-const PhotoOne = () => {
+import Photo from "@/assets/images/Tirath.png";
+const PhotoNew = () => {
   return (
     <div className="p-2  mb-4 justify-center flex">
       <div className="relative">
@@ -7,11 +7,11 @@ const PhotoOne = () => {
         <img
           src={Photo}
           alt="Tirath Pathak"
-          className="relative w-64 h-96 rounded-3xl shadow-2xl object-cover mix-blend-multiply"
+          className="relative w-96 h-96 rounded-3xl shadow-2xl object-cover mix-blend-multiply"
         />
       </div>
     </div>
   );
 };
 
-export default PhotoOne;
+export default PhotoNew;

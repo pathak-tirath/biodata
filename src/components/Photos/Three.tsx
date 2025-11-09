@@ -1,4 +1,4 @@
-import Photo from "@/assets/images/tirath_mumbai_3.jpg";
+import Photo from "@/assets/images/tirath2.png";
 const PhotoThree = () => {
   return (
     <div className="p-2  mb-4 justify-center flex">
@@ -7,7 +7,7 @@ const PhotoThree = () => {
         <img
           src={Photo}
           alt="Tirath Pathak"
-          className="relative w-60 h-60 rounded-3xl shadow-2xl object-cover mix-blend-multiply"
+          className="relative  w-96 h-96 rounded-3xl shadow-2xl object-cover mix-blend-multiply"
         />
       </div>
     </div>

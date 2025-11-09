@@ -16,7 +16,7 @@ const Education = () => {
             value="Bachelors of Technology (I.T) from Birla Vishwakarma Mahavidhyalaya-Anand-V.V.Nagar-Gujarat"
           />
           <DetailRow label="Year of Graduation" value="June, 2021" />
-          <DetailRow label="Occupation" value="Software Engineer" />
+          <DetailRow label="Occupation" value="Software Engineer - Manektech (10 LPA)" />
         </div>
       </div>
     );

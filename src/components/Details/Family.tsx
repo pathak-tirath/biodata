@@ -40,7 +40,7 @@ const Family = () => {
 };
 
 const DetailRow = ({ label, value }: { label: string; value: string }) => (
-  <div className="flex items-start group hover:bg-gray-200/30 px-2 pb-[32px]  rounded-lg transition-all duration-200">
+  <div className="flex items-start group hover:bg-gray-200/30 px-2 pb-[34px]  rounded-lg transition-all duration-200">
     <div className="w-1/3">
       <span className="font-medium text-gray-800 group-hover:text-gray-800 transition-colors duration-200">
         {label}

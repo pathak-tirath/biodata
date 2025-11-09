@@ -73,6 +73,10 @@ const App = () => {
       .h-60 { height: 15rem !important; }
       .w-72 { width: 18rem !important; }
       .h-72 { height: 18rem !important; }
+      .w-64 { width: 18rem !important; }
+      .h-64 { height: 18rem !important; }
+      .w-96 { width: 18rem !important; }
+      .h-96 { height: 18rem !important; }
       `;
       wrapper.appendChild(style);
 

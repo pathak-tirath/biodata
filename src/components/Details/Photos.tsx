@@ -1,7 +1,7 @@
-import PhotoFour from "../Photos/Four"
-import PhotoOne from "../Photos/One"
-import PhotoTwo from "../Photos/Two"
-
+import PhotoFour from "../Photos/Four";
+import PhotoNew from "../Photos/New";
+import PhotoThree from "../Photos/Three";
+// import PhotoTwo from "../Photos/Two"
 
 const Photos = () => {
   return (
@@ -17,21 +17,18 @@ const Photos = () => {
       {/* Photo Gallery */}
       <div className="flex">
         <div className=" w-full justify-center flex">
-          <PhotoOne />
+          <PhotoNew />
         </div>
-
-        {/* Image2 always remains at the bottom */}
-        <div className="w-full flex justify-center">
-          <PhotoTwo />
-        </div>
-
-
         <div className="w-full flex justify-center">
           <PhotoFour />
         </div>
+
+        <div className="w-full flex justify-center">
+          <PhotoThree />
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Photos
+export default Photos;

@@ -7,7 +7,7 @@ const PhotoFour = () => {
         <img
           src={Photo}
           alt="Tirath Pathak"
-          className="relative w-72 h-72 rounded-3xl shadow-2xl object-cover mix-blend-multiply"
+          className="relative w-96 h-96 rounded-3xl shadow-2xl object-cover mix-blend-multiply"
         />
       </div>
     </div>
